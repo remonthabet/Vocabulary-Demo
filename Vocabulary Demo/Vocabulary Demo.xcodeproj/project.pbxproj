@@ -95,11 +95,7 @@
 		042EB6A02D540FEA00A0F0A7 /* Vocabulary Demo */ = {
 			isa = PBXGroup;
 			children = (
-				042EB6A12D540FEA00A0F0A7 /* Vocabulary_DemoApp.swift */,
-				042EB6A32D540FEA00A0F0A7 /* ContentView.swift */,
-				042EB6A52D540FED00A0F0A7 /* Assets.xcassets */,
-				042EB6A72D540FED00A0F0A7 /* Vocabulary_Demo.entitlements */,
-				042EB6A82D540FED00A0F0A7 /* Preview Content */,
+				042EB6CC2D5416F900A0F0A7 /* AppFiles */,
 			);
 			path = "Vocabulary Demo";
 			sourceTree = "<group>";
@@ -127,6 +123,18 @@
 				042EB6BF2D540FED00A0F0A7 /* Vocabulary_DemoUITestsLaunchTests.swift */,
 			);
 			path = "Vocabulary DemoUITests";
+			sourceTree = "<group>";
+		};
+		042EB6CC2D5416F900A0F0A7 /* AppFiles */ = {
+			isa = PBXGroup;
+			children = (
+				042EB6A12D540FEA00A0F0A7 /* Vocabulary_DemoApp.swift */,
+				042EB6A32D540FEA00A0F0A7 /* ContentView.swift */,
+				042EB6A52D540FED00A0F0A7 /* Assets.xcassets */,
+				042EB6A72D540FED00A0F0A7 /* Vocabulary_Demo.entitlements */,
+				042EB6A82D540FED00A0F0A7 /* Preview Content */,
+			);
+			path = AppFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -416,10 +424,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Vocabulary Demo/Vocabulary_Demo.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Vocabulary Demo/AppFiles/Vocabulary_Demo.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Vocabulary Demo/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Vocabulary Demo/AppFiles/Preview Content\"";
 				DEVELOPMENT_TEAM = FMYX9S9BQ2;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -442,7 +450,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "any.Vocabulary-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -454,10 +463,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Vocabulary Demo/Vocabulary_Demo.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Vocabulary Demo/AppFiles/Vocabulary_Demo.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Vocabulary Demo/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Vocabulary Demo/AppFiles/Preview Content\"";
 				DEVELOPMENT_TEAM = FMYX9S9BQ2;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -480,7 +489,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "any.Vocabulary-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
