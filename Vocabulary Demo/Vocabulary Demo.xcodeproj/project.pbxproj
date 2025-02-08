@@ -8,12 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		042EB6A22D540FEA00A0F0A7 /* Vocabulary_DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042EB6A12D540FEA00A0F0A7 /* Vocabulary_DemoApp.swift */; };
-		042EB6A42D540FEA00A0F0A7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042EB6A32D540FEA00A0F0A7 /* ContentView.swift */; };
 		042EB6A62D540FED00A0F0A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042EB6A52D540FED00A0F0A7 /* Assets.xcassets */; };
 		042EB6AA2D540FED00A0F0A7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042EB6A92D540FED00A0F0A7 /* Preview Assets.xcassets */; };
 		042EB6B42D540FED00A0F0A7 /* Vocabulary_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042EB6B32D540FED00A0F0A7 /* Vocabulary_DemoTests.swift */; };
 		042EB6BE2D540FED00A0F0A7 /* Vocabulary_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042EB6BD2D540FED00A0F0A7 /* Vocabulary_DemoUITests.swift */; };
 		042EB6C02D540FED00A0F0A7 /* Vocabulary_DemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042EB6BF2D540FED00A0F0A7 /* Vocabulary_DemoUITestsLaunchTests.swift */; };
+		042EB6ED2D57B08D00A0F0A7 /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042EB6CF2D57B08D00A0F0A7 /* EndPoint.swift */; };
+		042EB6EE2D57B08D00A0F0A7 /* WordsEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042EB6D02D57B08D00A0F0A7 /* WordsEndPoint.swift */; };
+		042EB6EF2D57B08D00A0F0A7 /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042EB6D22D57B08D00A0F0A7 /* AppEnvironment.swift */; };
+		042EB6F02D57B08D00A0F0A7 /* NetworkProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042EB6D32D57B08D00A0F0A7 /* NetworkProvider.swift */; };
+		042EB6F12D57B08D00A0F0A7 /* MockWordsRepoImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042EB6D52D57B08D00A0F0A7 /* MockWordsRepoImp.swift */; };
+		042EB6F22D57B08D00A0F0A7 /* WordsRepositoryImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042EB6D62D57B08D00A0F0A7 /* WordsRepositoryImp.swift */; };
+		042EB6F32D57B08D00A0F0A7 /* GetWordsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042EB6D92D57B08D00A0F0A7 /* GetWordsUseCase.swift */; };
+		042EB6F62D57B08D00A0F0A7 /* WordEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042EB6DD2D57B08D00A0F0A7 /* WordEntity.swift */; };
+		042EB6F72D57B08D00A0F0A7 /* WordsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042EB6DE2D57B08D00A0F0A7 /* WordsRepository.swift */; };
+		042EB6FA2D57B08D00A0F0A7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042EB6E22D57B08D00A0F0A7 /* HomeView.swift */; };
+		042EB6FB2D57B08D00A0F0A7 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042EB6E32D57B08D00A0F0A7 /* OnboardingViewModel.swift */; };
+		042EB6FC2D57B08D00A0F0A7 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042EB6E42D57B08D00A0F0A7 /* OnboardingView.swift */; };
+		042EB6FE2D57B08D00A0F0A7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042EB6E92D57B08D00A0F0A7 /* Constants.swift */; };
+		042EB6FF2D57B08D00A0F0A7 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042EB6EA2D57B08D00A0F0A7 /* Extentions.swift */; };
+		042EB7022D57DEED00A0F0A7 /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042EB7012D57DEED00A0F0A7 /* RadioButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +50,6 @@
 /* Begin PBXFileReference section */
 		042EB69E2D540FEA00A0F0A7 /* Vocabulary Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vocabulary Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		042EB6A12D540FEA00A0F0A7 /* Vocabulary_DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vocabulary_DemoApp.swift; sourceTree = "<group>"; };
-		042EB6A32D540FEA00A0F0A7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		042EB6A52D540FED00A0F0A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		042EB6A72D540FED00A0F0A7 /* Vocabulary_Demo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Vocabulary_Demo.entitlements; sourceTree = "<group>"; };
 		042EB6A92D540FED00A0F0A7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,6 +58,21 @@
 		042EB6B92D540FED00A0F0A7 /* Vocabulary DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vocabulary DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		042EB6BD2D540FED00A0F0A7 /* Vocabulary_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vocabulary_DemoUITests.swift; sourceTree = "<group>"; };
 		042EB6BF2D540FED00A0F0A7 /* Vocabulary_DemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vocabulary_DemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		042EB6CF2D57B08D00A0F0A7 /* EndPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
+		042EB6D02D57B08D00A0F0A7 /* WordsEndPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordsEndPoint.swift; sourceTree = "<group>"; };
+		042EB6D22D57B08D00A0F0A7 /* AppEnvironment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
+		042EB6D32D57B08D00A0F0A7 /* NetworkProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkProvider.swift; sourceTree = "<group>"; };
+		042EB6D52D57B08D00A0F0A7 /* MockWordsRepoImp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockWordsRepoImp.swift; sourceTree = "<group>"; };
+		042EB6D62D57B08D00A0F0A7 /* WordsRepositoryImp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordsRepositoryImp.swift; sourceTree = "<group>"; };
+		042EB6D92D57B08D00A0F0A7 /* GetWordsUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetWordsUseCase.swift; sourceTree = "<group>"; };
+		042EB6DD2D57B08D00A0F0A7 /* WordEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordEntity.swift; sourceTree = "<group>"; };
+		042EB6DE2D57B08D00A0F0A7 /* WordsRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordsRepository.swift; sourceTree = "<group>"; };
+		042EB6E22D57B08D00A0F0A7 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		042EB6E32D57B08D00A0F0A7 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		042EB6E42D57B08D00A0F0A7 /* OnboardingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		042EB6E92D57B08D00A0F0A7 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		042EB6EA2D57B08D00A0F0A7 /* Extentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
+		042EB7012D57DEED00A0F0A7 /* RadioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +124,9 @@
 			isa = PBXGroup;
 			children = (
 				042EB6CC2D5416F900A0F0A7 /* AppFiles */,
+				042EB6EB2D57B08D00A0F0A7 /* AppHelpers */,
+				042EB6E72D57B08D00A0F0A7 /* AppModules */,
+				042EB6D82D57B08D00A0F0A7 /* DataLayer */,
 			);
 			path = "Vocabulary Demo";
 			sourceTree = "<group>";
@@ -129,12 +160,111 @@
 			isa = PBXGroup;
 			children = (
 				042EB6A12D540FEA00A0F0A7 /* Vocabulary_DemoApp.swift */,
-				042EB6A32D540FEA00A0F0A7 /* ContentView.swift */,
 				042EB6A52D540FED00A0F0A7 /* Assets.xcassets */,
 				042EB6A72D540FED00A0F0A7 /* Vocabulary_Demo.entitlements */,
 				042EB6A82D540FED00A0F0A7 /* Preview Content */,
 			);
 			path = AppFiles;
+			sourceTree = "<group>";
+		};
+		042EB6D12D57B08D00A0F0A7 /* EndPoint */ = {
+			isa = PBXGroup;
+			children = (
+				042EB6CF2D57B08D00A0F0A7 /* EndPoint.swift */,
+				042EB6D02D57B08D00A0F0A7 /* WordsEndPoint.swift */,
+			);
+			path = EndPoint;
+			sourceTree = "<group>";
+		};
+		042EB6D42D57B08D00A0F0A7 /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				042EB6D12D57B08D00A0F0A7 /* EndPoint */,
+				042EB6D22D57B08D00A0F0A7 /* AppEnvironment.swift */,
+				042EB6D32D57B08D00A0F0A7 /* NetworkProvider.swift */,
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		042EB6D72D57B08D00A0F0A7 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				042EB6D52D57B08D00A0F0A7 /* MockWordsRepoImp.swift */,
+				042EB6D62D57B08D00A0F0A7 /* WordsRepositoryImp.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		042EB6D82D57B08D00A0F0A7 /* DataLayer */ = {
+			isa = PBXGroup;
+			children = (
+				042EB6D42D57B08D00A0F0A7 /* NetworkLayer */,
+				042EB6D72D57B08D00A0F0A7 /* Repositories */,
+			);
+			path = DataLayer;
+			sourceTree = "<group>";
+		};
+		042EB6DC2D57B08D00A0F0A7 /* ApplicationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				042EB6D92D57B08D00A0F0A7 /* GetWordsUseCase.swift */,
+			);
+			path = ApplicationLayer;
+			sourceTree = "<group>";
+		};
+		042EB6DF2D57B08D00A0F0A7 /* DomainLayer */ = {
+			isa = PBXGroup;
+			children = (
+				042EB6DD2D57B08D00A0F0A7 /* WordEntity.swift */,
+				042EB6DE2D57B08D00A0F0A7 /* WordsRepository.swift */,
+			);
+			path = DomainLayer;
+			sourceTree = "<group>";
+		};
+		042EB6E52D57B08D00A0F0A7 /* PresentationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				042EB6E42D57B08D00A0F0A7 /* OnboardingView.swift */,
+				042EB6E32D57B08D00A0F0A7 /* OnboardingViewModel.swift */,
+				042EB6E22D57B08D00A0F0A7 /* HomeView.swift */,
+			);
+			path = PresentationLayer;
+			sourceTree = "<group>";
+		};
+		042EB6E62D57B08D00A0F0A7 /* MovieModule */ = {
+			isa = PBXGroup;
+			children = (
+				042EB6E52D57B08D00A0F0A7 /* PresentationLayer */,
+				042EB6DC2D57B08D00A0F0A7 /* ApplicationLayer */,
+				042EB6DF2D57B08D00A0F0A7 /* DomainLayer */,
+			);
+			path = MovieModule;
+			sourceTree = "<group>";
+		};
+		042EB6E72D57B08D00A0F0A7 /* AppModules */ = {
+			isa = PBXGroup;
+			children = (
+				042EB6E62D57B08D00A0F0A7 /* MovieModule */,
+			);
+			path = AppModules;
+			sourceTree = "<group>";
+		};
+		042EB6EB2D57B08D00A0F0A7 /* AppHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				042EB7002D57DEA800A0F0A7 /* Components */,
+				042EB6E92D57B08D00A0F0A7 /* Constants.swift */,
+				042EB6EA2D57B08D00A0F0A7 /* Extentions.swift */,
+			);
+			path = AppHelpers;
+			sourceTree = "<group>";
+		};
+		042EB7002D57DEA800A0F0A7 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				042EB7012D57DEED00A0F0A7 /* RadioButton.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,8 +397,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				042EB6A42D540FEA00A0F0A7 /* ContentView.swift in Sources */,
+				042EB6F02D57B08D00A0F0A7 /* NetworkProvider.swift in Sources */,
+				042EB6F22D57B08D00A0F0A7 /* WordsRepositoryImp.swift in Sources */,
+				042EB6FC2D57B08D00A0F0A7 /* OnboardingView.swift in Sources */,
+				042EB7022D57DEED00A0F0A7 /* RadioButton.swift in Sources */,
+				042EB6ED2D57B08D00A0F0A7 /* EndPoint.swift in Sources */,
+				042EB6EE2D57B08D00A0F0A7 /* WordsEndPoint.swift in Sources */,
+				042EB6FA2D57B08D00A0F0A7 /* HomeView.swift in Sources */,
+				042EB6FE2D57B08D00A0F0A7 /* Constants.swift in Sources */,
 				042EB6A22D540FEA00A0F0A7 /* Vocabulary_DemoApp.swift in Sources */,
+				042EB6F72D57B08D00A0F0A7 /* WordsRepository.swift in Sources */,
+				042EB6FF2D57B08D00A0F0A7 /* Extentions.swift in Sources */,
+				042EB6F62D57B08D00A0F0A7 /* WordEntity.swift in Sources */,
+				042EB6FB2D57B08D00A0F0A7 /* OnboardingViewModel.swift in Sources */,
+				042EB6EF2D57B08D00A0F0A7 /* AppEnvironment.swift in Sources */,
+				042EB6F32D57B08D00A0F0A7 /* GetWordsUseCase.swift in Sources */,
+				042EB6F12D57B08D00A0F0A7 /* MockWordsRepoImp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,11 +586,12 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
 				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DDEVELOPMENT";
 				PRODUCT_BUNDLE_IDENTIFIER = "any.Vocabulary-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -481,11 +626,12 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
 				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DDEVELOPMENT";
 				PRODUCT_BUNDLE_IDENTIFIER = "any.Vocabulary-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
